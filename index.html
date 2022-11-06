@@ -4,21 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DYNAMIC MULTIDIMENSIONAL SPATIAL-TEMPORAL GRAPH CONVOLUTIONAL NETWORK FOR SCENE-ADAPTIVE SPEECH ENHANCEMENT</title>
+    <title>FEATURE-AWARE ADVERSARIAL LEARNING WITH SPATIAL-TEMPORAL GRAPH CONVOLUTION NETWORK</title>
 </head>
 <body>
 		<article>
 			<header>
 				<h1>
-					DYNAMIC MULTIDIMENSIONAL SPATIAL-TEMPORAL GRAPH CONVOLUTIONAL NETWORK FOR SCENE-ADAPTIVE SPEECH ENHANCEMENT
+					FEATURE-AWARE ADVERSARIAL LEARNING WITH SPATIAL-TEMPORAL GRAPH CONVOLUTION NETWORK
 				</h1>
 			</header>
 		</article>
 		<div>
 			<b>Authers:</b>
-			"Luyao Zhang, Jingjing Yu*, Minghui Hao, Chi Yang"
+			"Luyao Zhang, Chi Yang, Jingjing Yu*, Qi He"
 		</div>
-		
 		<div>
 			
 			* Corresponding to: jjyu@bjtu.edu.cn
@@ -26,528 +25,10 @@
                                    <div>
 			Submitted to ICASSP2023
 		</div>
-
-
 		<h2> BUS </h2>
-			  <table class="tg">
-				  <colgroup>
-					<col style="width: 150px">
-					<col style="width: 300px">
-					<col style="width: 300px">
-					<col style="width: 300px">
-					<col style="width: 300px">
-					<col style="width: 300px">
-				  </colgroup>
-				  <thead>
-					<tr>
-					  <th class="tg-c3ow">Model</th>
-					  <th class="tg-c3ow">Sample 1</th>
-					  <th class="tg-c3ow">Sample 2</th>
-					  <th class="tg-c3ow">Sample 3</th>
-					  <th class="tg-c3ow">Sample 4</th>
-					  <th class="tg-c3ow">Sample 5</th>
-					</tr>
-				  </thead>
-				  <tbody>
-					<tr>
-					  <td class="tg-pcvp" align="center">Noisy</td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_30_2_noisy_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_0_1_noisy_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_0_2_noisy_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_12_0_noisy_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_12_1_noisy_1c.wav"></audio></td>
-			  
-					</tr>
-					<tr>
-					  <td class="tg-0pky" align="center">Clean</td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_30_2_clean_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_0_1_clean_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_0_2_clean_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_12_0_clean_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_12_1_clean_1c.wav"></audio></td>
-					</tr>
-					<tr>
-					  <td class="tg-pcvp" align="center">CNN</td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_30_2_noisy_1c_out_CNN_5_5____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_0_1_noisy_1c_out_CNN_5_5____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_0_2_noisy_1c_out_CNN_5_5____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_12_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_12_1_noisy_1c_out_CNN_5_5____.wav"></audio></td>
-					</tr>
-					<tr>
-					  <td class="tg-pcvp" align="center">Unet-GCN</td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_30_2_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_0_1_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_0_2_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_12_0_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_12_1_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
-					</tr>
-					<tr>
-						<td class="tg-pcvp" align="center">LSTM-IPD</td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/BUS/FileID_30_2_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/BUS/FileID_0_1_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/BUS/FileID_0_2_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/BUS/FileID_12_0_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/BUS/FileID_12_1_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
-					</tr>
-					<tr>
-						<td class="tg-pcvp" align="center"><img src="1.png" width="160" height="27"/></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/BUS/FileID_30_2_noisy_1c_out_DM-STGCN__A1_1.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/BUS/FileID_0_1_noisy_1c_out_DM-STGCN-A1_1.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/BUS/FileID_0_2_noisy_1c_out_DM-STGCN-A1_1.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/BUS/FileID_12_0_noisy_1c_out_DM-STGCN-A1_1.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/BUS/FileID_12_1_noisy_1c_out_DM-STGCN-A1_1.wav"></audio></td>
-					</tr>
-					<tr>
-					  <td class="tg-0pky" align="center"><img src="2.png" width="160" height="27"/></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_30_2_noisy_1c_out_DM-STGCN__A2_Dy.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_0_1_noisy_1c_out_DM_STGCN_A2_Dy.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_0_2_noisy_1c_out_DM_STGCN_A2_Dy.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_12_0_noisy_1c_out_DM_STGCN_A2_Dy.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_12_1_noisy_1c_out_DM_STGCN_A2_Dy.wav"></audio></td>
-					</tr>
-					<tr>
-					  <td class="tg-0pky" align="center"><img src="3.png" width="250" height="25"/></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_30_2_noisy_1c_out_DM-STGCN_A2_Dy_Q.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_0_1_noisy_1c_out_DM-STGCN_A2_Dy_Q.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_0_2_noisy_1c_out_DM-STGCN_A2_Dy_Q.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_12_0_noisy_1c_out_DM-STGCN_A2_Dy_Q.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/BUS/FileID_12_1_noisy_1c_out_DM-STGCN_A2_Dy_Q.wav"></audio></td>
-					</tr>
-				   </tbody>
-			</table>
-
-			<h2> STR </h2>
-			  <table class="tg">
-				  <colgroup>
-					<col style="width: 150px">
-					<col style="width: 300px">
-					<col style="width: 300px">
-					<col style="width: 300px">
-					<col style="width: 300px">
-					<col style="width: 300px">
-				  </colgroup>
-				  <thead>
-					<tr>
-					  <th class="tg-c3ow">Model</th>
-					  <th class="tg-c3ow">Sample 1</th>
-					  <th class="tg-c3ow">Sample 2</th>
-					  <th class="tg-c3ow">Sample 3</th>
-					  <th class="tg-c3ow">Sample 4</th>
-					  <th class="tg-c3ow">Sample 5</th>
-					</tr>
-				  </thead>
-				  <tbody>
-					<tr>
-					  <td class="tg-pcvp" align="center">Noisy</td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_0_0_noisy_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_12_0_noisy_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_12_1_noisy_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_12_2_noisy_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_18_0_noisy_1c.wav"></audio></td>
-			  
-					</tr>
-					<tr>
-					  <td class="tg-0pky" align="center">Clean</td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_0_0_clean_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_12_0_clean_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_12_1_clean_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_12_2_clean_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_18_0_clean_1c.wav"></audio></td>
-					</tr>
-					<tr>
-					  <td class="tg-pcvp" align="center">CNN</td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_0_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_12_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_12_1_noisy_1c_out_CNN_5_5____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_12_2_noisy_1c_out_CNN_5_5____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_18_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
-					</tr>
-					<tr>
-					  <td class="tg-pcvp" align="center">Unet-GCN</td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_0_0_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_12_0_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_12_1_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_12_2_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_18_0_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
-					</tr>
-					<tr>
-						<td class="tg-pcvp" align="center">LSTM-IPD</td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/STR/FileID_0_0_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/STR/FileID_12_0_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/STR/FileID_12_1_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/STR/FileID_12_2_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/STR/FileID_18_0_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
-					</tr>
-					<tr>
-						<td class="tg-pcvp" align="center"><img src="1.png" width="160" height="27"/></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/STR/FileID_0_0_noisy_1c_out_STGCN_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/STR/FileID_12_0_noisy_1c_out_STGCN_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/STR/FileID_12_1_noisy_1c_out_STGCN_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/STR/FileID_12_2_noisy_1c_out_STGCN_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/STR/FileID_18_0_noisy_1c_out_STGCN_____.wav"></audio></td>
-					</tr>
-					<tr>
-					  <td class="tg-0pky" align="center"><img src="2.png" width="160" height="27"/></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_0_0_noisy_1c_out_DM-STGCN_A2_Dy.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_12_0_noisy_1c_out_DM-STGCN_A2_Dy.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_12_1_noisy_1c_out_DM-STGCN_A2_Dy.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_12_2_noisy_1c_out_DM-STGCN_A2_Dy.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_18_0_noisy_1c_out__DM-STGCN_A2_Dy.wav"></audio></td>
-					</tr>
-					<tr>
-					  <td class="tg-0pky" align="center"><img src="3.png" width="250" height="25"/></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_0_0_noisy_1c_out_DM-STGCN_A2_Dy_Q.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_12_0_noisy_1c_out_DM-STGCN_A2_Dy_Q.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_12_1_noisy_1c_out_DM-STGCN_A2_Dy_Q.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_12_2_noisy_1c_out_STGCN_DM-STGCN_A2_Dy_Q.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/STR/FileID_18_0_noisy_1c_out_STGCN_DM-STGCN_A2_Dy_Q.wav"></audio></td>
-					</tr>
-				   </tbody>
-			</table>
-
-			
-			<h2> CAF </h2>
-			  <table class="tg">
-				  <colgroup>
-					<col style="width: 150px">
-					<col style="width: 300px">
-					<col style="width: 300px">
-					<col style="width: 300px">
-					<col style="width: 300px">
-					<col style="width: 300px">
-				  </colgroup>
-				  <thead>
-					<tr>
-					  <th class="tg-c3ow">Model</th>
-					  <th class="tg-c3ow">Sample 1</th>
-					  <th class="tg-c3ow">Sample 2</th>
-					  <th class="tg-c3ow">Sample 3</th>
-					  <th class="tg-c3ow">Sample 4</th>
-					  <th class="tg-c3ow">Sample 5</th>
-					</tr>
-				  </thead>
-				  <tbody>
-					<tr>
-					  <td class="tg-pcvp" align="center">Noisy</td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_0_0_noisy_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_0_1_noisy_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_0_2_noisy_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_18_0_noisy_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_18_1_noisy_1c.wav"></audio></td>
-			  
-					</tr>
-					<tr>
-					  <td class="tg-0pky" align="center">Clean</td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_0_0_clean_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_0_1_clean_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_12_0_clean_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_18_0_clean_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_18_1_clean_1c.wav"></audio></td>
-					</tr>
-					<tr>
-					  <td class="tg-pcvp" align="center">CNN</td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_0_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_0_1_noisy_1c_out_CNN_5_5____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_12_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_18_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_18_1_noisy_1c_out_CNN_5_5____.wav"></audio></td>
-					</tr>
-					<tr>
-					  <td class="tg-pcvp" align="center">Unet-GCN</td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_0_0_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_0_1_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_12_0_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_18_0_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_18_1_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
-					</tr>
-					<tr>
-						<td class="tg-pcvp" align="center">LSTM-IPD</td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/CAF/FileID_0_0_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/CAF/FileID_0_1_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/CAF/FileID_12_0_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/CAF/FileID_18_0_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/CAF/FileID_18_1_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
-					</tr>
-					<tr>
-						<td class="tg-pcvp" align="center"><img src="1.png" width="160" height="27"/></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/CAF/FileID_0_0_noisy_1c_out_DM-STGCN_A1_1.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/CAF/FileID_0_1_noisy_1c_out_DM-STGCN_A1_1.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/CAF/FileID_12_0_noisy_1c_out_DM-STGCN_A1_1.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/CAF/FileID_18_0_noisy_1c_out_DM-STGCN_A1_1.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/CAF/FileID_18_1_noisy_1c_out_DM-STGCN_A1_1.wav"></audio></td>
-					</tr>
-					<tr>
-					  <td class="tg-0pky" align="center"><img src="2.png" width="160" height="27"/></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_0_0_noisy_1c_out_STGCN_____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_0_1_noisy_1c_out_STGCN_____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_12_0_noisy_1c_out_STGCN_____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_18_0_noisy_1c_out_STGCN_____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_18_1_noisy_1c_out_STGCN_____.wav"></audio></td>
-					</tr>
-					<tr>
-					  <td class="tg-0pky" align="center"><img src="3.png" width="250" height="25"/></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_0_0_noisy_1c_out_STGCN_mask_5b_256F_minidata_.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_0_1_noisy_1c_out_STGCN_mask_5b_256F_minidata_.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_12_0_noisy_1c_out_STGCN_mask_5b_256F_minidata_.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_18_0_noisy_1c_out_STGCN_mask_5b_256F_minidata_.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/CAF/FileID_18_1_noisy_1c_out_STGCN_mask_5b_256F_minidata_.wav"></audio></td>
-					</tr>
-				   </tbody>
-			</table>
-
-			<h2> PED </h2>
-			  <table class="tg">
-				  <colgroup>
-					<col style="width: 150px">
-					<col style="width: 300px">
-					<col style="width: 300px">
-					<col style="width: 300px">
-					<col style="width: 300px">
-					<col style="width: 300px">
-				  </colgroup>
-				  <thead>
-					<tr>
-					  <th class="tg-c3ow">Model</th>
-					  <th class="tg-c3ow">Sample 1</th>
-					  <th class="tg-c3ow">Sample 2</th>
-					  <th class="tg-c3ow">Sample 3</th>
-					  <th class="tg-c3ow">Sample 4</th>
-					  <th class="tg-c3ow">Sample 5</th>
-					</tr>
-				  </thead>
-				  <tbody>
-					<tr>
-					  <td class="tg-pcvp" align="center">Noisy</td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/PED/FileID_0_0_noisy_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/PED/FileID_0_1_noisy_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/PED/FileID_12_0_noisy_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/PED/FileID_18_0_noisy_1c.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/PED/FileID_18_1_noisy_1c.wav"></audio></td>
-					</tr>
-					<tr>
-						<td class="tg-0pky" align="center">Clean</td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_0_0_clean_1c.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_0_1_clean_1c.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_12_0_clean_1c.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_18_0_clean_1c.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_18_1_clean_1c.wav"></audio></td>
-					  </tr>
-					  <tr>
-						<td class="tg-pcvp" align="center">CNN</td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_0_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_0_1_noisy_1c_out_CNN_5_5____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_12_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_18_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_18_1_noisy_1c_out_CNN_5_5____.wav"></audio></td>
-					  </tr>
-					  <tr>
-						<td class="tg-pcvp" align="center">Unet-GCN</td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_0_0_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_0_1_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_12_0_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_18_0_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_18_1_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
-					  </tr>
-					<tr>
-						<td class="tg-pcvp" align="center">LSTM-IPD</td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_0_0_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_0_1_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_12_0_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_18_0_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_18_1_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
-					</tr>
-					<tr>
-						<td class="tg-pcvp" align="center"><img src="1.png" width="160" height="27"/></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_0_0_noisy_1c_out_DM-STGCN-A1_1.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_0_1_noisy_1c_out_DM-STGCN-A1_1.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_12_0_noisy_1c_out_DM-STGCN-A1_1.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_18_0_noisy_1c_out_DM-STGCN-A1_1.wav"></audio></td>
-						<td class="tg-ihkz"><audio controls="">
-							<source src="wav_sample1/PED/FileID_18_1_noisy_1c_out_DM-STGCN-A1_1.wav"></audio></td>
-					</tr>
-					<tr>
-					  <td class="tg-0pky" align="center"><img src="2.png" width="160" height="27"/></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/PED/FileID_0_0_noisy_1c_out_STGCN_____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/PED/FileID_0_1_noisy_1c_out_STGCN_____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/PED/FileID_12_0_noisy_1c_out_STGCN_____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/PED/FileID_18_0_noisy_1c_out_STGCN_____.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/PED/FileID_18_1_noisy_1c_out_STGCN_____.wav"></audio></td>
-					</tr>
-					<tr>
-					  <td class="tg-0pky" align="center"><img src="3.png" width="250" height="25"/></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/PED/FileID_0_0_noisy_1c_out_STGCN_mask_5b_256F_minidata_.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/PED/FileID_0_1_noisy_1c_out_STGCN_mask_5b_256F_minidata_.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/PED/FileID_12_0_noisy_1c_out_STGCN_mask_5b_256F_minidata_.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/PED/FileID_18_0_noisy_1c_out_STGCN_mask_5b_256F_minidata_.wav"></audio></td>
-					  <td class="tg-ihkz"><audio controls="">
-						  <source src="wav_sample1/PED/FileID_18_1_noisy_1c_out_STGCN_mask_5b_256F_minidata_.wav"></audio></td>
-					</tr>
-				   </tbody>
-			</table>
-
-		<h2> Man speaker-SNR=-4dB </h2>
 		<table class="tg">
 			<colgroup>
-			  <col style="width: 150px">
+			  <col style="width: 180px">
 			  <col style="width: 300px">
 			  <col style="width: 300px">
 			  <col style="width: 300px">
@@ -568,610 +49,848 @@
 			  <tr>
 				<td class="tg-pcvp" align="center">Noisy</td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/Noisy_file_ID_226_0.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_0_0_noisy_1c.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/Noisy_file_ID_226_1.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_0_1_noisy_1c.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/Noisy_file_ID_263_0.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_0_2_noisy_1c.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/Noisy_file_ID_305_1.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_12_0_noisy_1c.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/Noisy_file_ID_305_2.wav"></audio></td>
-		
+					<source src="wav_sample2/BUS/FileID_12_1_noisy_1c.wav"></audio></td>
 			  </tr>
 			  <tr>
 				<td class="tg-0pky" align="center">Clean</td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/Clean_file_ID_226_0.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_0_0_clean_1c.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/Clean_file_ID_226_1.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_0_1_clean_1c.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/Clean_file_ID_263_0.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_0_2_clean_1c.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/Clean_file_ID_305_1.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_12_0_clean_1c.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/Clean_file_ID_305_2.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_12_1_clean_1c.wav"></audio></td>
 			  </tr>
 			  <tr>
 				<td class="tg-0pky" align="center">CNN</td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/enhanced_CNN_file_ID_226_0.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_0_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/enhanced_CNN_file_ID_226_1.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_0_1_noisy_1c_out_CNN_5_5____.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/enhanced_CNN_file_ID_263_0.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_0_2_noisy_1c_out_CNN_5_5____.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/enhanced_CNN_file_ID_305_1.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_12_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/enhanced_CNN_file_ID_305_2.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_12_1_noisy_1c_out_CNN_5_5____.wav"></audio></td>
 			  </tr>
 			  <tr>
-				<td class="tg-0pky" align="center">UNet-GCN</td>	
+				<td class="tg-pcvp" align="center">LSTM-IPD</td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/Noisy_file_ID_226_0_out_UNet_GCN_____.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_0_0_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/Noisy_file_ID_226_1_out_UNet_GCN_____.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_0_1_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/Noisy_file_ID_263_0_out_UNet_GCN_____.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_0_2_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/Noisy_file_ID_305_1_out_UNet_GCN_____.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_12_0_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/Noisy_file_ID_305_2_out_UNet_GCN_____.wav"></audio></td>
-			  </tr>
-			  <tr>
-				<td class="tg-pcvp" align="center"><img src="2.png" width="160" height="27"/></td>
-				
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/enhanced_DM-STGCN_A2_Dy_file_ID_226_0.wav"></audio></td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/enhanced_DM-STGCN_A2_Dy_file_ID_226_1.wav"></audio></td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/enhanced_DM-STGCN_A2_Dy_file_ID_263_0.wav"></audio></td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/enhanced_DM-STGCN_A2_Dy_file_ID_305_1.wav"></audio></td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/enhanced_DM-STGCN_A2_Dy_file_ID_305_2.wav"></audio></td>
-			  </tr>
-			  <tr>
-				<td class="tg-0pky" align="center"><img src="3.png" width="250" height="25"/></td>
-				
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/enhanced_DM-STGCN_A2_Dy_Q_file_ID_226_0.wav"></audio></td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/enhanced_DM-STGCN_A2_Dy_Q_file_ID_226_1.wav"></audio></td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/enhanced_DM-STGCN_A2_Dy_Q_file_ID_263_0.wav"></audio></td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/enhanced_DM-STGCN_A2_Dy_Q_file_ID_305_1.wav"></audio></td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/man/SNR_-4/enhanced_DM-STGCN_A2_Dy_Q_file_ID_305_2.wav"></audio></td>
-			  </tr>
-            </tbody>
-        </table>
-			  
-
-		  <h2> Man speaker-SNR=-3dB </h2>
-		  <table class="tg">
-			  <colgroup>
-				<col style="width: 150px">
-				<col style="width: 300px">
-				<col style="width: 300px">
-				<col style="width: 300px">
-				<col style="width: 300px">
-				<col style="width: 300px">
-			  </colgroup>
-			  <thead>
-				<tr>
-				  <th class="tg-c3ow">Model</th>
-				  <th class="tg-c3ow">Sample 1</th>
-				  <th class="tg-c3ow">Sample 2</th>
-				  <th class="tg-c3ow">Sample 3</th>
-				  <th class="tg-c3ow">Sample 4</th>
-				  <th class="tg-c3ow">Sample 5</th>
-				</tr>
-			  </thead>
-			  <tbody>
-				<tr>
-				  <td class="tg-pcvp" align="center">Noisy</td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/Noisy_file_ID_3_1.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/Noisy_file_ID_3_2.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/Noisy_file_ID_14_0.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/Noisy_file_ID_14_1.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/Noisy_file_ID_59_1.wav"></audio></td>
-		  
-				</tr>
-				<tr>
-				  <td class="tg-0pky" align="center">Clean</td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/Clean_file_ID_3_1.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/Clean_file_ID_3_2.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/Clean_file_ID_14_0.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/Clean_file_ID_14_1.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/Clean_file_ID_59_1.wav"></audio></td>
-				</tr>
-				<tr>
-				  <td class="tg-pcvp" align="center">CNN</td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/enhanced_CNN_file_ID_3_1.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/enhanced_CNN_file_ID_3_2.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/enhanced_CNN_file_ID_14_0.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/enhanced_CNN_file_ID_14_1.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/enhanced_CNN_file_ID_59_1.wav"></audio></td>
-				</tr>
-				<tr>
-					<td class="tg-pcvp" align="center">UNet-GCN</td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-3/Noisy_file_ID_3_1_out_UNet_GCN_____.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-3/Noisy_file_ID_3_2_out_UNet_GCN_____.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-3/Noisy_file_ID_14_0_out_UNet_GCN_____.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-3/Noisy_file_ID_14_1_out_UNet_GCN_____.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-3/Noisy_file_ID_59_1_out_UNet_GCN_____.wav"></audio></td>
-				  </tr>
-				<tr>
-				  <td class="tg-0pky" align="center"><img src="2.png" width="160" height="27"/></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/enhanced_DM-STGCN_A2_Dy_file_ID_3_1.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/enhanced_DM-STGCN_A2_Dy_file_ID_3_2.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/enhanced_DM-STGCN_A2_Dy_file_ID_14_0.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/enhanced_DM-STGCN_A2_Dy_file_ID_14_1.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/enhanced_DM-STGCN_A2_Dy_file_ID_59_1.wav"></audio></td>
-				</tr>
-				<tr>
-				  <td class="tg-pcvp" align="center"><img src="3.png" width="250" height="25"/></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/enhanced_DM-STGCN_A2_Dy_Q_file_ID_3_1.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/enhanced_DM-STGCN_A2_Dy_Q_file_ID_3_2.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/enhanced_DM-STGCN_A2_Dy_Q_file_ID_14_0.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/enhanced_DM-STGCN_A2_Dy_Q_file_ID_14_1.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/man/SNR_-3/enhanced_DM-STGCN_A2_Dy_Q_file_ID_59_1.wav"></audio></td>
-				</tr>
-			  </tbody>
-			</table>
-
-			<h2> Man speaker-SNR=-2dB </h2>
-			<table class="tg">
-				<colgroup>
-				  <col style="width: 150px">
-				  <col style="width: 300px">
-				  <col style="width: 300px">
-				  <col style="width: 300px">
-				  <col style="width: 300px">
-				  <col style="width: 300px">
-				</colgroup>
-				<thead>
-				  <tr>
-					<th class="tg-c3ow">Model</th>
-					<th class="tg-c3ow">Sample 1</th>
-					<th class="tg-c3ow">Sample 2</th>
-					<th class="tg-c3ow">Sample 3</th>
-					<th class="tg-c3ow">Sample 4</th>
-					<th class="tg-c3ow">Sample 5</th>
-				  </tr>
-				</thead>
-				<tbody>
-				  <tr>
-					<td class="tg-pcvp" align="center">Noisy</td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/Noisy_file_ID_523_1.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/Noisy_file_ID_523_2.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/Noisy_file_ID_557_1.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/Noisy_file_ID_557_2.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/Noisy_file_ID_616_0.wav"></audio></td>
-			
-				  </tr>
-				  <tr>
-					<td class="tg-0pky" align="center">Clean</td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/Clean_file_ID_523_1.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/Clean_file_ID_523_2.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/Clean_file_ID_557_1.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/Clean_file_ID_557_2.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/Clean_file_ID_616_0.wav"></audio></td>
-				  </tr>
-				  <tr>
-					<td class="tg-pcvp" align="center">CNN</td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/enhanced_CNN_file_ID_523_1.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/enhanced_CNN_file_ID_523_2.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/enhanced_CNN_file_ID_557_1.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/enhanced_CNN_file_ID_557_2.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/enhanced_CNN_file_ID_616_0.wav"></audio></td>
-				  </tr>
-				  <tr>
-					<td class="tg-pcvp" align="center">UNet-GCN</td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/Noisy_file_ID_523_1_out_UNet_GCN_____.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/Noisy_file_ID_523_2_out_UNet_GCN_____.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/Noisy_file_ID_557_1_out_UNet_GCN_____.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/Noisy_file_ID_557_2_out_UNet_GCN_____.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/Noisy_file_ID_616_0_out_UNet_GCN_____.wav"></audio></td>
-				  </tr>
-				  <tr>
-					<td class="tg-0pky" align="center"><img src="2.png" width="160" height="27"/></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/enhanced_DM-STGCN_A2_Dy_file_ID_523_1.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/enhanced_DM-STGCN_A2_Dy_file_ID_523_2.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/enhanced_DM-STGCN_A2_Dy_file_ID_557_1.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/enhanced_DM-STGCN_A2_Dy_file_ID_557_2.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/enhanced_DM-STGCN_A2_Dy_file_ID_616_0.wav"></audio></td>
-				  </tr>
-				  <tr>
-					<td class="tg-0pky" align="center"><img src="3.png" width="250" height="25"/></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/enhanced_DM-STGCN_A2_Dy_Q_file_ID_523_1.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/enhanced_DM-STGCN_A2_Dy_Q_file_ID_523_2.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/enhanced_DM-STGCN_A2_Dy_Q_file_ID_557_1.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/enhanced_DM-STGCN_A2_Dy_Q_file_ID_557_2.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/man/SNR_-2/enhanced_DM-STGCN_A2_Dy_Q_file_ID_616_0.wav"></audio></td>
-				  </tr>
-				</tbody>
-			  </table>
-				  </tbody>
-				</table>
-
-                <h2> Woman speaker-SNR=-4dB </h2>
-		<table class="tg">
-			<colgroup>
-			  <col style="width: 150px">
-			  <col style="width: 300px">
-			  <col style="width: 300px">
-			  <col style="width: 300px">
-			  <col style="width: 300px">
-			  <col style="width: 300px">
-			</colgroup>
-			<thead>
-			  <tr>
-				<th class="tg-c3ow">Model</th>
-				<th class="tg-c3ow">Sample 1</th>
-				<th class="tg-c3ow">Sample 2</th>
-				<th class="tg-c3ow">Sample 3</th>
-				<th class="tg-c3ow">Sample 4</th>
-				<th class="tg-c3ow">Sample 5</th>
-			  </tr>
-			</thead>
-			<tbody>
-			  <tr>
-				<td class="tg-pcvp" align="center">Noisy</td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/Noisy_file_ID_1101_2.wav"></audio></td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/Noisy_file_ID_1154_1.wav"></audio></td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/Noisy_file_ID_1154_2.wav"></audio></td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/Noisy_file_ID_1182_1.wav"></audio></td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/Noisy_file_ID_1182_2.wav"></audio></td>
-		
-			  </tr>
-			  <tr>
-				<td class="tg-0pky" align="center">Clean</td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/Clean_file_ID_1101_2.wav"></audio></td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/Clean_file_ID_1154_1.wav"></audio></td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/Clean_file_ID_1154_2.wav"></audio></td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/Clean_file_ID_1182_1.wav"></audio></td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/Clean_file_ID_1182_2.wav"></audio></td>
-			  </tr>
-			  <tr>
-				<td class="tg-0pky" align="center">CNN</td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/enhanced_CNN_file_ID_1101_2.wav"></audio></td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/enhanced_CNN_file_ID_1154_1.wav"></audio></td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/enhanced_CNN_file_ID_1154_2.wav"></audio></td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/enhanced_CNN_file_ID_1182_1.wav"></audio></td>
-				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/enhanced_CNN_file_ID_1182_2.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_12_1_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
 			  </tr>
 			  <tr>
 				<td class="tg-0pky" align="center">UNet-GCN</td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/Noisy_file_ID_1101_2_out_UNet_GCN_____.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_0_0_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/Noisy_file_ID_1154_1_out_UNet_GCN_____.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_0_1_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/Noisy_file_ID_1154_2_out_UNet_GCN_____.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_0_2_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/Noisy_file_ID_1182_1_out_UNet_GCN_____.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_12_0_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/Noisy_file_ID_1182_2_out_UNet_GCN_____.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_12_1_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
 			  </tr>
 			  <tr>
-				<td class="tg-pcvp" align="center"><img src="2.png" width="160" height="27"/></td>
+				<td class="tg-0pky" align="center"><img src="4.png" width="120" height="24"/></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/enhanced_DM-STGCN_A2_Dy_file_ID_1101_2.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_0_0_noisy_1c_out_DM-STGCN-A1_1.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/enhanced_DM-STGCN_A2_Dy_file_ID_1154_1.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_0_1_noisy_1c_out_DM-STGCN-A1_1.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/enhanced_DM-STGCN_A2_Dy_file_ID_1154_2.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_0_2_noisy_1c_out_DM-STGCN-A1_1.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/enhanced_DM-STGCN_A2_Dy_file_ID_1182_1.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_12_0_noisy_1c_out_DM-STGCN-A1_1.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/enhanced_DM-STGCN_A2_Dy_file_ID_1182_2.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_12_1_noisy_1c_out_DM-STGCN-A1_1.wav"></audio></td>
 			  </tr>
 			  <tr>
-				<td class="tg-0pky" align="center"><img src="3.png" width="250" height="25"/></td>
+				<td class="tg-0pky" align="center"><img src="5.png" width="160" height="27"/></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/enhanced_DM-STGCN_A2_Dy_Q_file_ID_1101_2.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_0_0_noisy_1c_out_STGCSEN_NA_MSE_.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/enhanced_DM-STGCN_A2_Dy_Q_file_ID_1154_1.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_0_1_noisy_1c_out_STGCSEN_NA_MSE.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/enhanced_DM-STGCN_A2_Dy_Q_file_ID_1154_2.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_0_2_noisy_1c_out_STGCSEN_NA_MSE.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/enhanced_DM-STGCN_A2_Dy_Q_file_ID_1182_1.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_12_0_noisy_1c_out_STGCSEN_NA_MSE.wav"></audio></td>
 				<td class="tg-ihkz"><audio controls="">
-					<source src="wav_sample1/cocltail_party/woman/SNR-4/enhanced_DM-STGCN_A2_Dy_Q_file_ID_1182_2.wav"></audio></td>
+					<source src="wav_sample2/BUS/FileID_12_1_noisy_1c_out_STGCSEN_NA_MSE.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center"><img src="6.png" width="150" height="25"/></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/BUS/FileID_0_0_noisy_1c_out_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/BUS/FileID_0_1_noisy_1c_out_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/BUS/FileID_0_2_noisy_1c_out_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/BUS/FileID_12_0_noisy_1c_out_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/BUS/FileID_12_1_noisy_1c_out_STGCSEN_NTA_MSE.wav"></audio></td>
 			  </tr>
             </tbody>
         </table>
-			  
+		<h2> CAF </h2>
+		<table class="tg">
+			<colgroup>
+			  <col style="width: 150px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			</colgroup>
+			<thead>
+			  <tr>
+				<th class="tg-c3ow">Model</th>
+				<th class="tg-c3ow">Sample 1</th>
+				<th class="tg-c3ow">Sample 2</th>
+				<th class="tg-c3ow">Sample 3</th>
+				<th class="tg-c3ow">Sample 4</th>
+				<th class="tg-c3ow">Sample 5</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+				<td class="tg-pcvp" align="center">Noisy</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_0_0_noisy_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_0_1_noisy_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_12_0_noisy_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_18_0_noisy_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_18_1_noisy_1c.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center">Clean</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_0_0_clean_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_0_1_clean_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_12_0_clean_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_18_0_clean_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_18_1_clean_1c.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center">CNN</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_0_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_0_1_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_12_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_18_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_18_1_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-pcvp" align="center">LSTM-IPD</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_0_0_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_0_1_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_12_0_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_18_0_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_18_1_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center">UNet-GCN</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_0_0_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_0_1_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_12_0_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_18_0_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_18_1_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center"><img src="4.png" width="120" height="24"/></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_0_0_noisy_1c_out_DM-STGCN_A1_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_0_1_noisy_1c_out_DM-STGCN_A1_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_12_0_noisy_1c_out_DM-STGCN_A1_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_18_0_noisy_1c_out_DM-STGCN_A1_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_18_1_noisy_1c_out_DM-STGCN_A1_1.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center"><img src="5.png" width="160" height="27"/></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_0_0_noisy_1c_out_STGCSEN_NA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_0_1_noisy_1c_out_STGCSEN_NA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_12_0_noisy_1c_out_STGCSEN_NA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_18_0_noisy_1c_out_STGCSEN_NA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_18_1_noisy_1c_out_STGCSEN_NA_MSE.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center"><img src="6.png" width="150" height="25"/></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_0_0_noisy_1c_out_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_0_1_noisy_1c_out_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_12_0_noisy_1c_out_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_18_0_noisy_1c_out_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/CAF/FileID_18_1_noisy_1c_out_STGCSEN_NTA_MSE.wav"></audio></td>
+			   </tr>
+            </tbody>
+        </table>
+		
+		<h2> PED </h2>
+		<table class="tg">
+			<colgroup>
+			  <col style="width: 150px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			</colgroup>
+			<thead>
+			  <tr>
+				<th class="tg-c3ow">Model</th>
+				<th class="tg-c3ow">Sample 1</th>
+				<th class="tg-c3ow">Sample 2</th>
+				<th class="tg-c3ow">Sample 3</th>
+				<th class="tg-c3ow">Sample 4</th>
+				<th class="tg-c3ow">Sample 5</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+				<td class="tg-pcvp" align="center">Noisy</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_0_0_noisy_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_0_1_noisy_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_12_0_noisy_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_18_0_noisy_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_18_1_noisy_1c.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center">Clean</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_0_0_clean_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_0_1_clean_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_12_0_clean_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_18_0_clean_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_18_1_clean_1c.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center">CNN</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_0_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_0_1_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_12_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_18_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_18_1_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-pcvp" align="center">LSTM-IPD</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_0_0_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_0_1_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_12_0_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_18_0_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_18_1_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center">UNet-GCN</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_0_0_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_0_1_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_12_0_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_18_0_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_18_1_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center"><img src="4.png" width="120" height="24"/></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_0_0_noisy_1c_out_DM-STGCN-A1_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_0_1_noisy_1c_out_DM-STGCN-A1_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_12_0_noisy_1c_out_DM-STGCN-A1_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_18_0_noisy_1c_out_DM-STGCN-A1_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_18_1_noisy_1c_out_DM-STGCN-A1_1.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center"><img src="5.png" width="160" height="27"/></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_0_0_noisy_1c_out_STGCSEN_NA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_0_1_noisy_1c_out_STGCSEN_NA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_12_0_noisy_1c_out_STGCSEN_NA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_18_0_noisy_1c_out_STGCSEN_NA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_18_1_noisy_1c_out_STGCSEN_NA_MSE.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center"><img src="6.png" width="150" height="25"/></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_0_0_noisy_1c_out_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_0_1_noisy_1c_out_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_12_0_noisy_1c_out_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_18_0_noisy_1c_out_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/PED/FileID_18_1_noisy_1c_out_STGCSEN_NTA_MSE.wav"></audio></td>
+			   </tr>
+            </tbody>
+        </table>
 
-		  <h2> Woman speaker-SNR=-3dB </h2>
-		  <table class="tg">
-			  <colgroup>
-				<col style="width: 150px">
-				<col style="width: 300px">
-				<col style="width: 300px">
-				<col style="width: 300px">
-				<col style="width: 300px">
-				<col style="width: 300px">
-			  </colgroup>
-			  <thead>
-				<tr>
-				  <th class="tg-c3ow">Model</th>
-				  <th class="tg-c3ow">Sample 1</th>
-				  <th class="tg-c3ow">Sample 2</th>
-				  <th class="tg-c3ow">Sample 3</th>
-				  <th class="tg-c3ow">Sample 4</th>
-				  <th class="tg-c3ow">Sample 5</th>
-				</tr>
-			  </thead>
-			  <tbody>
-				<tr>
-				  <td class="tg-pcvp" align="center">Noisy</td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/Noisy_file_ID_809_1.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/Noisy_file_ID_809_2.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/Noisy_file_ID_857_0.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/Noisy_file_ID_857_1.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/Noisy_file_ID_675_0.wav"></audio></td>
-		  
-				</tr>
-				<tr>
-				  <td class="tg-0pky" align="center">Clean</td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/Clean_file_ID_809_1.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/Clean_file_ID_809_2.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/Clean_file_ID_857_0.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/Clean_file_ID_857_1.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-				      <source src="wav_sample1/cocltail_party/woman/SNR-3/Clean_file_ID_675_0.wav"></audio></td>
-				</tr>
-				<tr>
-				  <td class="tg-pcvp" align="center">CNN</td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/enhanced_CNN_file_ID_809_1.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/enhanced_CNN_file_ID_809_2.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/enhanced_CNN_file_ID_857_0.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/enhanced_CNN_file_ID_857_1.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/enhanced_CNN_file_ID_675_0.wav"></audio></td>
-				</tr>
-				<tr>
-					<td class="tg-pcvp" align="center">UNet-GCN</td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-3/Noisy_file_ID_809_1_out_UNet_GCN_____.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-3/Noisy_file_ID_809_2_out_UNet_GCN_____.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-3/Noisy_file_ID_857_0_out_UNet_GCN_____.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-3/Noisy_file_ID_857_1_out_UNet_GCN_____.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-3/Noisy_file_ID_675_0_out_UNet_GCN_____.wav"></audio></td>
-				  </tr>
-				<tr>
-				  <td class="tg-0pky" align="center"><img src="2.png" width="160" height="27"/></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/enhanced_DM-STGCN_A2_Dy_file_ID_809_1.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/enhanced_DM-STGCN_A2_Dy_file_ID_809_2.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/enhanced_DM-STGCN_A2_Dy_file_ID_857_0.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/enhanced_DM-STGCN_A2_Dy_file_ID_857_1.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/enhanced_DM-STGCN_A2_Dy_file_ID_675_0.wav"></audio></td>
-				</tr>
-				<tr>
-				  <td class="tg-pcvp" align="center"><img src="3.png" width="250" height="25"/></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/enhanced_DM-STGCN_A2_Dy_Q_file_ID_809_1.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/enhanced_DM-STGCN_A2_Dy_Q_file_ID_809_2.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/enhanced_DM-STGCN_A2_Dy_Q_file_ID_857_0.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/enhanced_DM-STGCN_A2_Dy_Q_file_ID_857_1.wav"></audio></td>
-				  <td class="tg-ihkz"><audio controls="">
-					  <source src="wav_sample1/cocltail_party/woman/SNR-3/enhanced_DM-STGCN_A2_Dy_Q_file_ID_675_0.wav"></audio></td>
-				</tr>
-			  </tbody>
-			</table>
+		<h2> STR </h2>
+		<table class="tg">
+			<colgroup>
+			  <col style="width: 150px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			</colgroup>
+			<thead>
+			  <tr>
+				<th class="tg-c3ow">Model</th>
+				<th class="tg-c3ow">Sample 1</th>
+				<th class="tg-c3ow">Sample 2</th>
+				<th class="tg-c3ow">Sample 3</th>
+				<th class="tg-c3ow">Sample 4</th>
+				<th class="tg-c3ow">Sample 5</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+				<td class="tg-pcvp" align="center">Noisy</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_0_0_noisy_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_0_noisy_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_1_noisy_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_2_noisy_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_18_0_noisy_1c.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center">Clean</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_0_0_clean_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_0_clean_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_1_clean_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_2_clean_1c.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_18_0_clean_1c.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center">CNN</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_0_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_1_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_2_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_18_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-pcvp" align="center">LSTM-IPD</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_0_0_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_0_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_1_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_2_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_18_0_noisy_1c_out_lstm_ipd_____.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center">UNet-GCN</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_0_0_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_0_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_1_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_2_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_18_0_noisy_1c_out_UNet_GCN_____.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center"><img src="4.png" width="120" height="24"/></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_0_0_noisy_1c_out_STGCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_0_noisy_1c_out_STGCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_1_noisy_1c_out_STGCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_2_noisy_1c_out_STGCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_18_0_noisy_1c_out_STGCN_____.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center"><img src="5.png" width="160" height="27"/></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_0_0_noisy_1c_out_STGCSEN_NA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_0_noisy_1c_out_STGCSEN_NA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_1_noisy_1c_out_STGCSEN_NA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_2_noisy_1c_out_STGCSEN_NA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_18_0_noisy_1c_out_STGCSEN_NA_MSE.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center"><img src="6.png" width="150" height="25"/></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_0_0_noisy_1c_out_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_0_noisy_1c_out_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_1_noisy_1c_out_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_12_2_noisy_1c_out_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/STR/FileID_18_0_noisy_1c_out_STGCSEN_NTA_MSE.wav"></audio></td>
+			   </tr>
+            </tbody>
+        </table>
+		
 
-			<h2> Woman speaker-SNR=-2dB </h2>
-			<table class="tg">
-				<colgroup>
-				  <col style="width: 150px">
-				  <col style="width: 300px">
-				  <col style="width: 300px">
-				  <col style="width: 300px">
-				  <col style="width: 300px">
-				  <col style="width: 300px">
-				</colgroup>
-				<thead>
-				  <tr>
-					<th class="tg-c3ow">Model</th>
-					<th class="tg-c3ow">Sample 1</th>
-					<th class="tg-c3ow">Sample 2</th>
-					<th class="tg-c3ow">Sample 3</th>
-					<th class="tg-c3ow">Sample 4</th>
-					<th class="tg-c3ow">Sample 5</th>
-				  </tr>
-				</thead>
-				<tbody>
-				  <tr>
-					<td class="tg-pcvp" align="center">Noisy</td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/Noisy_file_ID_206_0.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/Noisy_file_ID_206_1.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/Noisy_file_ID_223_0.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/Noisy_file_ID_223_1.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/Noisy_file_ID_2_1.wav"></audio></td>
-			
-				  </tr>
-				  <tr>
-					<td class="tg-0pky" align="center">Clean</td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/Clean_file_ID_206_0.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/Clean_file_ID_206_1.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/Clean_file_ID_223_0.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/Clean_file_ID_223_1.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/Clean_file_ID_2_1.wav"></audio></td>
-				  </tr>
-				  <tr>
-					<td class="tg-pcvp" align="center">CNN</td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/enhanced_CNN_file_ID_206_0.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/enhanced_CNN_file_ID_206_1.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/enhanced_CNN_file_ID_223_0.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/enhanced_CNN_file_ID_223_1.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/enhanced_CNN_file_ID_2_1.wav"></audio></td>
-				  </tr>
-				  <tr>
-					<td class="tg-pcvp" align="center">UNet-GCN</td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/Noisy_file_ID_206_0_out_UNet_GCN_____.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/Noisy_file_ID_206_1_out_UNet_GCN_____.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/Noisy_file_ID_223_0_out_UNet_GCN_____.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/Noisy_file_ID_223_1_out_UNet_GCN_____.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/Noisy_file_ID_2_1_out_UNet_GCN_____.wav"></audio></td>
-				  </tr>
-				  <tr>
-					<td class="tg-0pky" align="center"><img src="2.png" width="160" height="27"/></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/enhanced_DM-STGCN_A2_Dy_file_ID_206_0.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/enhanced_DM-STGCN_A2_Dy_file_ID_206_1.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/enhanced_DM-STGCN_A2_Dy_file_ID_223_0.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/enhanced_DM-STGCN_A2_Dy_file_ID_223_1.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/enhanced_DM-STGCN_A2_Dy_file_ID_2_1.wav"></audio></td>
-				  </tr>
-				  <tr>
-					<td class="tg-0pky" align="center"><img src="3.png" width="250" height="25"/></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/enhanced_DM-STGCN_A2_Dy_Q_file_ID_206_0.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/enhanced_DM-STGCN_A2_Dy_Q_file_ID_206_1.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/enhanced_DM-STGCN_A2_Dy_Q_file_ID_223_0.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/enhanced_DM-STGCN_A2_Dy_Q_file_ID_223_1.wav"></audio></td>
-					<td class="tg-ihkz"><audio controls="">
-						<source src="wav_sample1/cocltail_party/woman/SNR-2/enhanced_DM-STGCN_A2_Dy_Q_file_ID_2_1.wav"></audio></td>
-				  </tr>
-				</tbody>
-			  </table>
-			
-			
-			
-			
-			</tbody>
-		</table>
-	</body>
+		<h2> Unseen scenes(with untrained types of noise): dynamic  background noises </h2>
+		<table class="tg">
+			<colgroup>
+			  <col style="width: 150px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			</colgroup>
+			<thead>
+			  <tr>
+				<th class="tg-c3ow">Model</th>
+				<th class="tg-c3ow">Sample 1</th>
+				<th class="tg-c3ow">Sample 2</th>
+				<th class="tg-c3ow">Sample 3</th>
+				<th class="tg-c3ow">Sample 4</th>
+				<th class="tg-c3ow">Sample 5</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+				<td class="tg-pcvp" align="center">Noisy</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/Noisy_file_ID_1122_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/Noisy_file_ID_1122_2.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/Noisy_file_ID_1179_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/Noisy_file_ID_1179_2.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/Noisy_file_ID_1285_0.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center">Clean</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/Clean_file_ID_1122_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/Clean_file_ID_1122_2.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/Clean_file_ID_1179_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/Clean_file_ID_1179_2.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/Clean_file_ID_1285_0.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center">CNN</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/enhanced_CNN_file_ID_1122_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/enhanced_CNN_file_ID_1122_2.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/enhanced_CNN_file_ID_1179_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/enhanced_CNN_file_ID_1179_2.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/enhanced_CNN_file_ID_1285_0.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center"><img src="7.png" width="120" height="24"/></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/enhanced_STGCSEN_file_ID_1122_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/enhanced_STGCSEN_file_ID_1122_2.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/enhanced_STGCSEN_file_ID_1179_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/enhanced_STGCSEN_file_ID_1179_2.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/enhanced_STGCSEN_file_ID_1285_0.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center"><img src="5.png" width="160" height="27"/></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/enhanced_STGCSEN_NA_MSE_cont_file_ID_1122_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/enhanced_STGCSEN_NA_MSE_cont_file_ID_1122_2.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/enhanced_STGCSEN_NA_MSE_cont_file_ID_1179_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/enhanced_STGCSEN_NA_MSE_cont_file_ID_1179_2.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/BUS_STR/enhanced_STGCSEN_NA_MSE_cont_file_ID_1285_0.wav"></audio></td>
+			   </tr>
+            </tbody>
+        </table>
+		<h2> Unseen scenes(with untrained types of noise): static background noises </h2>
+		<table class="tg">
+			<colgroup>
+			  <col style="width: 150px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			</colgroup>
+			<thead>
+			  <tr>
+				<th class="tg-c3ow">Model</th>
+				<th class="tg-c3ow">Sample 1</th>
+				<th class="tg-c3ow">Sample 2</th>
+				<th class="tg-c3ow">Sample 3</th>
+				<th class="tg-c3ow">Sample 4</th>
+				<th class="tg-c3ow">Sample 5</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+				<td class="tg-pcvp" align="center">Noisy</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/Noisy_file_ID_1025_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/Noisy_file_ID_1025_2.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/Noisy_file_ID_1104_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/Noisy_file_ID_1104_2.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/Noisy_file_ID_1420_1.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center">Clean</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/Clean_file_ID_1025_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/Clean_file_ID_1025_2.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/Clean_file_ID_1104_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/Clean_file_ID_1104_2.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/Clean_file_ID_1420_1.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center">CNN</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/enhanced_CNN_file_ID_1025_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/enhanced_CNN_file_ID_1025_2.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/enhanced_CNN_file_ID_1104_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/enhanced_CNN_file_ID_1104_2.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/enhanced_CNN_file_ID_1420_1.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center"><img src="7.png" width="120" height="24"/></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/enhanced_STGCSEN_file_ID_1025_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/enhanced_STGCSEN_file_ID_1025_2.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/enhanced_STGCSEN_file_ID_1104_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/enhanced_STGCSEN_file_ID_1104_2.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/enhanced_STGCSEN_file_ID_1420_1.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center"><img src="5.png" width="160" height="27"/></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/enhanced_STGCSEN_NA_MSE_cont_file_ID_1025_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/enhanced_STGCSEN_NA_MSE_cont_file_ID_1025_2.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/enhanced_STGCSEN_NA_MSE_cont_file_ID_1104_1.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/enhanced_STGCSEN_NA_MSE_cont_file_ID_1104_2.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/STR_BUS/enhanced_STGCSEN_NA_MSE_cont_file_ID_1420_1.wav"></audio></td>
+			   </tr>
+            </tbody>
+        </table>
+		<h2> Unseen scenes(with untrained types of noise): static noises and interfering persons </h2>
+		<table class="tg">
+			<colgroup>
+			  <col style="width: 150px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			</colgroup>
+			<thead>
+			  <tr>
+				<th class="tg-c3ow">Model</th>
+				<th class="tg-c3ow">Sample 1</th>
+				<th class="tg-c3ow">Sample 2</th>
+				<th class="tg-c3ow">Sample 3</th>
+				<th class="tg-c3ow">Sample 4</th>
+				<th class="tg-c3ow">Sample 5</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+				<td class="tg-pcvp" align="center">Noisy</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_0_0_noisy_1cFileID_0_0_noisy_1c_noisy.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_0_1_noisy_1cFileID_0_1_noisy_1c_noisy.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_12_0_noisy_1cFileID_138_1_noisy_1c_noisy.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_18_0_noisy_1cFileID_168_2_noisy_1c_noisy.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_18_1_noisy_1cFileID_174_0_noisy_1c_noisy.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center">Clean</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_0_0_clean_1cFileID_0_0_clean_1c_clean.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_0_1_clean_1cFileID_0_1_clean_1c_clean.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_12_0_clean_1cFileID_138_1_clean_1c_clean.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_18_0_clean_1cFileID_168_2_clean_1c_clean.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_18_1_clean_1cFileID_174_0_clean_1c_clean.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center">CNN</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_0_0_noisy_1cFileID_0_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_0_1_noisy_1cFileID_0_1_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_12_0_noisy_1cFileID_138_1_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_18_0_noisy_1cFileID_168_2_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_18_1_noisy_1cFileID_174_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center"><img src="7.png" width="120" height="24"/></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_0_0_noisy_1cFileID_0_0_noisy_1c_out_STGCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_0_1_noisy_1cFileID_0_1_noisy_1c_out_STGCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_12_0_noisy_1cFileID_138_1_noisy_1c_out_STGCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_18_0_noisy_1cFileID_168_2_noisy_1c_out_STGCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_18_1_noisy_1cFileID_174_0_noisy_1c_out_STGCN_____.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center"><img src="6.png" width="150" height="25"/></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_0_0_noisy_1cFileID_0_0_noisy_1c_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_0_1_noisy_1cFileID_0_1_noisy_1c_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_12_0_noisy_1cFileID_138_1_noisy_1c_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_18_0_noisy_1cFileID_168_2_noisy_1c_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/CAF_BUS/FileID_18_1_noisy_1cFileID_174_0_noisy_1c_STGCSEN_NTA_MSE.wav"></audio></td>
+			   </tr>
+            </tbody>
+        </table>
+
+		<h2> Unseen scenes(with untrained types of noise): dynamic noises and interfering persons </h2>
+		<table class="tg">
+			<colgroup>
+			  <col style="width: 150px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			  <col style="width: 300px">
+			</colgroup>
+			<thead>
+			  <tr>
+				<th class="tg-c3ow">Model</th>
+				<th class="tg-c3ow">Sample 1</th>
+				<th class="tg-c3ow">Sample 2</th>
+				<th class="tg-c3ow">Sample 3</th>
+				<th class="tg-c3ow">Sample 4</th>
+				<th class="tg-c3ow">Sample 5</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+				<td class="tg-pcvp" align="center">Noisy</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_0_0_noisy_1cFileID_0_0_noisy_1c_noisy.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_0_1_noisy_1cFileID_102_0_noisy_1c_noisy.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_12_0_noisy_1cFileID_120_1_noisy_1c_noisy.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_18_0_noisy_1cFileID_156_3_noisy_1c_noisy.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_18_1_noisy_1cFileID_156_4_noisy_1c_noisy.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center">Clean</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_0_0_clean_1cFileID_0_0_clean_1c_clean.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_0_1_clean_1cFileID_102_0_clean_1c_clean.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_12_0_clean_1cFileID_120_1_clean_1c_clean.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_18_0_clean_1cFileID_156_3_clean_1c_clean.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_18_1_clean_1cFileID_156_4_clean_1c_clean.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center">CNN</td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_0_0_noisy_1cFileID_0_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_0_1_noisy_1cFileID_102_0_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_12_0_noisy_1cFileID_120_1_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_18_0_noisy_1cFileID_156_3_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_18_1_noisy_1cFileID_156_4_noisy_1c_out_CNN_5_5____.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center"><img src="7.png" width="120" height="24"/></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_0_0_noisy_1cFileID_0_0_noisy_1c_out_STGCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_0_1_noisy_1cFileID_102_0_noisy_1c_out_STGCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_12_0_noisy_1cFileID_120_1_noisy_1c_out_STGCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_18_0_noisy_1cFileID_156_3_noisy_1c_out_STGCN_____.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_18_1_noisy_1cFileID_156_4_noisy_1c_out_STGCN_____.wav"></audio></td>
+			  </tr>
+			  <tr>
+				<td class="tg-0pky" align="center"><img src="6.png" width="150" height="25"/></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_0_0_noisy_1cFileID_0_0_noisy_1c_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_0_1_noisy_1cFileID_102_0_noisy_1c_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_12_0_noisy_1cFileID_120_1_noisy_1c_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_18_0_noisy_1cFileID_156_3_noisy_1c_STGCSEN_NTA_MSE.wav"></audio></td>
+				<td class="tg-ihkz"><audio controls="">
+					<source src="wav_sample2/unseen/PED_STR/FileID_18_1_noisy_1cFileID_156_4_noisy_1c_STGCSEN_NTA_MSE.wav"></audio></td>
+			   </tr>
+            </tbody>
+        </table>
+
+
+</body>
 </html>
